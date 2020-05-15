@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 i am fine
+=======
+good meal
+>>>>>>> other
