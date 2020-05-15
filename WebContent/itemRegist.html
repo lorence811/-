@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品登録</title>
+<!-- CSSの読み込み -->
+<link rel="stylesheet" href="./itemRegist.css" type="text/css">
+<!-- JavaScriptの読み込み -->
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="text/javascript" src="itemRegist.js"></script>
+</head>
+<body>
+	<!--  ヘッダー -->
+	<div class="header">
+		<h1>myFirstApp</h1>
+	</div>
+	<!--  メインコンテンツ -->
+	<div class="content">
+		<!--  ページナビゲーション -->
+		<div class="nav">
+			<h2>商品登録ページ</h2>
+		</div>
+		<table class="item-detail-table">
+			<tr>
+				<th>商品コード</th>
+				<td><input type="text" placeholder="商品コード" id="js-input-code"></td>
+			</tr>
+			<tr>
+				<th>商品名</th>
+				<td><input type="text" placeholder="商品名" id="js-input-name"></input></td>
+			</tr>
+			<tr>
+				<th>商品名カナ</th>
+				<td><input type="text" placeholder="商品名カナ" id="js-input-kana"></td>
+			</tr>
+			<tr>
+				<th>価格</th>
+				<td><input type="text" placeholder="販売単価" id="js-input-price"></td>
+			</tr>
+			<tr>
+				<th>在庫数</th>
+				<td><input type="text" placeholder="在庫数" id="js-input-stock"></input></td>
+			</tr>
+			<tr>
+				<th>画像URL</th>
+				<td><input type="text" placeholder="画像URL" id="js-input-url"></input></td>
+			</tr>
+			<tr>
+				<th>商品説明</th>
+				<td><textarea placeholder="商品説明" id="js-input-description"></textarea></td>
+			</tr>
+		</table>
+		<button id="js-regist-button">登録</button>
+	</div>
+</body>
+</html>

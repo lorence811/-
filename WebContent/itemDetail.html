@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品ページ</title>
+<!-- CSSの読み込み -->
+<link rel="stylesheet" href="./itemDetail.css" type="text/css">
+<!-- JavaScriptの読み込み -->
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="text/javascript" src="itemDetail.js"></script>
+</head>
+<body>
+	<!--  ヘッダー -->
+	<div class="header">
+		<h1>myFirstApp</h1>
+		<input type="text" placeholder="商品名" id="js-search-input-name"></input>
+		<button id="js-search-button-name">商品名検索</button>
+		<input type="text"  placeholder="商品番号" id="js-search-input"></input>
+		<button id="js-search-button">商品番号検索</button>
+	</div>
+	<!--  メインコンテンツ -->
+	<div class="content">
+		<!--  ページナビゲーション -->
+		<div class="nav">
+			<h2>商品ページ</h2>
+		</div>
+		<!--  商品画像 -->
+		<div class="item-image">
+			<img id="js-item-image" src="" />
+		</div>
+		<!--  商品情報 -->
+		<div class="item-detail">
+			<table>
+				<tr>
+					<th>商品コード</th>
+					<td id="js-item-cd"></td>
+				</tr>
+				<tr>
+					<th>商品名</th>
+					<td id="js-item-name"></td>
+				</tr>
+				<tr>
+					<th>商品名カナ</th>
+					<td id="js-item-kana"></td>
+				</tr>
+				<tr>
+					<th>価格</th>
+					<td id="js-item-price"></td>
+				</tr>
+				<tr>
+					<th>在庫数</th>
+					<td id="js-item-stock"></td>
+				</tr>
+			</table>
+		</div>
+		<!--  商品説明 -->
+		<div class="item-description">
+			<pre id="js-item-description"></pre>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+/* body全体を画面のサイズに調整 */
+html, body {
+	margin : 0;
+	border : 0;
+	padding : 0;
+	width : 100%;
+	height : 100%;
+}
+/* ヘッダー */
+.header{
+	background-color:#81d4cb;
+	color:white;
+	text-align:center;
+	width:100%;
+	height:100px;
+}
+/* メインコンテンツ */
+.content {
+	width: 100%;
+	height:85%;
+}
+/* ページナビゲーション */
+.nav {
+	width:100%;
+	float:left;
+	text-align:left;
+	background-color: #f7f8f9;
+}
+/*  商品画像 */
+.item-image {
+	margin-left:5%;
+	margin-top:5%;
+	width: 30%;
+	height:300px;
+	float: left;
+}
+/* 商品情報 */
+.item-detail {
+	margin-right:15%;
+	margin-top:5%;
+	width: 50%;
+	float: right;
+}
+/* 商品説明 */
+.item-description {
+	width: 80%;
+	height: 100px;
+	border: 1px solid #999;
+	float: left;
+	margin: 0 5% 0 5%;
+}
+/* 画像のサイズを調整 */
+.item-image img{
+	width:100%;
+	height:100%;
+}
+/** テーブル **/
+.item-detail table {
+	/* 枠線 */
+	border-collapse: collapse;
+	border-right: 1px solid #999;
+	width:100%;
+}
+
+.item-detail th {
+	/* 内部余白 */
+	padding: 10px;
+	/* 枠線 */
+	border-top: 1px solid #fff;
+	/* 文字色 */
+	color: #fff;
+	/* 文字表示 */
+	text-align: left;
+	/* 背景色 */
+	background-color: #81d4cb;
+}
+
+.item-detail td {
+	/* 内部余白 */
+	padding: 6px;
+	/* 枠線 */
+	border: 1px solid #999;
+	/* 背景色 */
+	background-color: #fff;
+	/* 横幅 */
+	width:70%;
+	/* 高さ */
+	height:48px;
+}
+/* 画像を拡大*/
+.expand{
+	-webkit-transform: scale(1.8);
+	transform: scale(1.8);
+	transform-origin:left top;
+	transition: all 300ms 0s ease;
+}
+

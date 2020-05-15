@@ -1,0 +1,11 @@
+ {
+	"itemCd" : "0001",
+	"itemName" : "国内産 ふじ りんご 1個",
+	"itemNameKana" : "コクサン フジ リンゴ 1コ",
+	"description" : "・内容量:250g\r\n・原材料:ふじ\r\n・商品サイズ(高さx奥行x幅):80.0mm×85.0mm×85.0mm",
+	"url" : "./images/apple.jpg",
+	"salesPrice" : 200,
+	"taxType" : "01",
+	"itemGroupCd" : "01",
+	"stock" : "20"
+ }
